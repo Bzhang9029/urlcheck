@@ -1,4 +1,3 @@
-Absolutely! Here's the **fully formatted `README.md` content**—ready to copy and paste into your project:
 
 ---
 
@@ -30,12 +29,7 @@ A simple desktop application to scan URLs for **malicious**, **suspicious**, or 
 
 ```bash
 pip install -r requirements.txt
-If you don’t have a requirements.txt yet, you can create one with:
 
-bash
-Copy
-Edit
-pip freeze > requirements.txt
 🔧 Setup
 Add your VirusTotal API key in VirusTotalClient.py:
 API_KEY = "your_virustotal_api_key_here"
