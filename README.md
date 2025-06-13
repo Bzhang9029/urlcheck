@@ -37,12 +37,12 @@ API_KEY = "your_virustotal_api_key_here"
 🧪 Run the App
 python main.py
 
-🛠 Technologies Used
+### 🛠 Technologies Used
 Python
 PyQt5
 VirusTotal Public API
 
-📁 Project Structure
+###📁 Project Structure
 bash
 Copy
 Edit
