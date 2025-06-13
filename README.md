@@ -80,21 +80,4 @@ Brian Zhang
 
 ---
 
-## 📄 License
-
-MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 📌 Next Steps
-
-1. Copy this into your `README.md`
-2. Save it
-3. Run:
-
-```bash
-git add README.md
-git commit -m "Add full README with usage and features"
-git push origin main
-```
 
