@@ -1,7 +1,3 @@
-
----
-
-````markdown
 # 🔎 URL Checker
 
 A simple desktop application to scan URLs for **malicious**, **suspicious**, or **harmless** content using the [VirusTotal API](https://www.virustotal.com/). Built with **Python** and **PyQt5**, it provides a clean GUI to help users assess the safety of URLs quickly.
@@ -25,13 +21,25 @@ A simple desktop application to scan URLs for **malicious**, **suspicious**, or 
 - pip  
 - A [VirusTotal API key](https://www.virustotal.com/gui/join-us)
 
-### Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
+````
 
-🔧 Setup
-Add your VirusTotal API key in VirusTotalClient.py:
+If you don’t have a `requirements.txt` yet, you can create one:
+
+```bash
+pip freeze > requirements.txt
+```
+
+---
+
+## 🔧 Setup
+
+Open `VirusTotalClient.py` and add your API key:
+
+```python
 API_KEY = "your_virustotal_api_key_here"
 ```
 
@@ -41,16 +49,21 @@ API_KEY = "your_virustotal_api_key_here"
 
 ```bash
 python main.py
+```
 
-### 🛠 Technologies Used
-Python
-PyQt5
-VirusTotal Public API
+---
 
-###📁 Project Structure
-bash
-Copy
-Edit
+## 🛠 Technologies Used
+
+* Python
+* PyQt5
+* VirusTotal Public API
+
+---
+
+## 📁 Project Structure
+
+```
 url-checker/
 ├── main.py               # PyQt5 GUI app
 ├── VirusTotalClient.py   # Handles API requests
@@ -63,13 +76,17 @@ url-checker/
 ## 🙋‍♂️ Author
 
 Brian Zhang
-@Bzhang9029
+[@Bzhang9029](https://github.com/Bzhang9029)
 
-📄 License
-MIT License. See LICENSE for details.
+---
 
+## 📄 License
 
-### 📌 Next Steps:
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## 📌 Next Steps
 
 1. Copy this into your `README.md`
 2. Save it
@@ -81,4 +98,3 @@ git commit -m "Add full README with usage and features"
 git push origin main
 ```
 
-```
