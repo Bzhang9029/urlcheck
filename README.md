@@ -26,25 +26,18 @@ A simple desktop application to scan URLs for **malicious**, **suspicious**, or 
 - pip  
 - A [VirusTotal API key](https://www.virustotal.com/gui/join-us)
 
-### Install Dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
-````
+If you don’t have a requirements.txt yet, you can create one with:
 
-If you don’t have a `requirements.txt` yet, you can create one:
-
-```bash
+bash
+Copy
+Edit
 pip freeze > requirements.txt
-```
-
----
-
-## 🔧 Setup
-
-Open `VirusTotalClient.py` and add your API key:
-
-```python
+🔧 Setup
+Add your VirusTotal API key in VirusTotalClient.py:
 API_KEY = "your_virustotal_api_key_here"
 ```
 
@@ -54,21 +47,16 @@ API_KEY = "your_virustotal_api_key_here"
 
 ```bash
 python main.py
-```
 
----
+### 🛠 Technologies Used
+Python
+PyQt5
+VirusTotal Public API
 
-## 🛠 Technologies Used
-
-* Python
-* PyQt5
-* VirusTotal Public API
-
----
-
-## 📁 Project Structure
-
-```
+###📁 Project Structure
+bash
+Copy
+Edit
 url-checker/
 ├── main.py               # PyQt5 GUI app
 ├── VirusTotalClient.py   # Handles API requests
@@ -81,17 +69,13 @@ url-checker/
 ## 🙋‍♂️ Author
 
 Brian Zhang
-[@Bzhang9029](https://github.com/Bzhang9029)
+@Bzhang9029
 
----
+📄 License
+MIT License. See LICENSE for details.
 
-## 📄 License
 
-MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 📌 Next Steps
+### 📌 Next Steps:
 
 1. Copy this into your `README.md`
 2. Save it
